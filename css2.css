@@ -1,0 +1,165 @@
+body {
+    display: block;
+    margin-top: -10%;
+}
+
+* {
+    margin: 0;
+    padding: 20px;
+    border: 0;
+   }
+
+
+
+section {
+    padding: 20%;
+    margin-left: -10%;
+    margin-top: -5%;
+}
+
+
+
+/* Add this CSS to your css2.css file */
+.logo img {
+    height: 70px;
+    width: 250px;
+    
+}
+
+.mobile-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Optional: Align items vertically in the center */
+    padding: 10px; /* Remove default padding */
+    list-style-type: none; 
+
+    
+}
+
+.mobile-menu li {
+    margin-right: px; /* Adjust as needed */
+}
+
+/* Optional: Style anchor links within the list */
+.mobile-menu a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.burger{
+    display: none;
+}
+
+
+
+.navigation {
+  display: flex;
+}
+
+.navigation nav{
+    display: flex;
+    margin-top: -15%;
+}
+
+
+.navigation ul li {
+display: flex;
+
+}
+
+.button2 {
+    border: none;
+    background-color: #007bff; /* Choose your desired background color */
+    color: white;
+    padding: 15px 30px; /* Adjust padding as needed */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 28px; /* Set the border radius to create rounded corners */
+    text-wrap: nowrap;
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    margin: -100px 10px;
+    
+}
+
+.content-right img {
+    width: 100%;
+}
+
+.content-left{
+    
+}
+
+.main-content div{
+    width: 100%;
+}
+
+h1 {
+    margin-top: 20%;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(84, 84, 84);
+}
+
+.button1 {
+    padding: 15px;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+
+ul li a {
+    text-decoration: none;
+}
+
+/* mobile*/
+@media only screen and (max-width: 660px) {
+   .logo{
+    margin-left: -25%;
+   }
+   
+    .content-right{
+        display: none;
+    }
+
+    .mobile-menu ul li{
+        display: none;
+
+    }
+    
+    .content-left{
+        margin-left: -25%;
+                
+    }
+    .mobile-menu ul .burger{
+        display:block ;
+        width: 4px;
+        height: 10px;
+        margin-right: -00px;
+        
+        }
+
+        .burger img{
+                 height: 30px; /* Adjust the height as needed */
+                width: 35px; /* Adjust the width as needed */
+                margin-right: 10px; /* Add margin for spacing between the burger icon and navigation items */
+            }
+            
+        }
+}
